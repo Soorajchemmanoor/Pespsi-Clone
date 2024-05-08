@@ -1,0 +1,215 @@
+body{
+    margin:0px;
+ 
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: -1px;
+      
+      
+}
+header
+{
+    height:90px;
+    background-color: #0025ff;
+    width:100%;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    margin: 0px;
+    display: flex;
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+.header-inner{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+}
+.header-left{
+    display:flex;
+    gap:20px;
+    align-items: center;
+}
+.header-left .logo img{
+    height: 60px;
+}
+.header-left nav ul li{
+    display: inline;
+    color:white;
+    padding: 0px 20px;;
+}
+.header-right a{
+    color:white;
+    text-decoration:none;
+    border:2px solid white;
+    border-radius: 25px;
+    padding:4px 15px;
+}
+.video-banner video{
+    width:100%;
+    
+}
+.banner-image
+{
+    width:100%;
+    position: relative;
+    
+
+}
+.banner-image img{
+    width:100%;
+    margin-top: -5px;;
+}
+
+.banner-image .shop-now{
+    position: absolute;
+    bottom: 30px;
+    left:35%;
+    padding:30px 80px;
+    background-color: white;
+    font-size: 55px;
+    line-height: 60px;;
+    color:#000000;
+}
+.banner-image .shop-now:hover{
+    background-color: #0025ff;
+    color: white;
+}
+.cherry-img{
+    margin-top: -5px;
+    padding: 70px 40px 180px 40px;
+    background-image: url(assets/images/cherry-bg.png);
+    text-align: center;
+    
+}
+.cherry-img > img{
+    width:95%;
+}
+.fan-images{
+display: flex;
+gap:30px;
+margin-top: 40px;
+}
+.fan-1, .fan-2{
+    flex:1;
+}
+
+.fan-images img{
+    width:100%;
+    border-radius: 30px;
+}
+.fan-images img:hover{
+    box-shadow: 0px 0px 56px 12px blue
+}
+.text
+{
+    background-color: white;
+    font-size: 45px;
+    font-weight: 500;
+    color:black;
+    width:70%;
+    margin:50px auto;
+    text-align: center;
+    padding: 15px 0px;
+}
+.text:hover{
+    background-color: #0025ff;
+    color: white;
+    cursor: pointer;
+}
+.gallery-container{
+    background-color: #000000;
+    padding: 10px 50px 50px 50px;
+    margin-top: -5px;
+}
+.gallery-container h2{
+    font-size: 42px;
+
+    line-height: 4px;
+    color: #0025ff;
+    text-align: center;
+   
+}
+.gallery-inner{
+    display: flex;
+    border: 3px solid blue;
+    padding: 0px;
+
+} 
+.gal{
+    flex:1;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+.gal .img{
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+}
+.gal .ico{
+    width:30px;
+    position: absolute;
+    bottom:20px;
+    left:20px;
+}
+
+footer
+{
+    background-color: #0025ff;
+    padding:60px 40px 0px;
+    margin-bottom: -16px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    flex:2;
+}
+.footer-logo img{
+    width:100px;
+}
+.footer-nav
+{
+    display:flex;
+    gap:30px;
+    flex:7;
+    
+}
+.footer-nav ul li{
+    list-style-type: none;
+    padding-left: 0px;
+    color:white;
+    padding:8px 0px;
+}
+.footer-nav ul li:hover{
+    opacity:0.7;
+    cursor: pointer;
+}
+.footer-social{
+    display:flex;
+    gap:20px;
+    flex:3;
+    justify-content: end;
+}
+.footer-social img{
+    width:30px;
+}
+.footer-social img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.footer-bottom p{
+    color:white;
+    text-align: right;
+    padding-right: 10px;
+    text-decoration: underline;
+    padding-top:50px;
+    padding-bottom: 5px;
+}
